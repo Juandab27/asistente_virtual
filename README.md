@@ -142,6 +142,7 @@ http://localhost:8501
 Proyecto academico desarrollado de manera individual.
 
 **Juan David Bermúdez**
+
 Responsable del diseño, arquitectura, desarrollo completo del código, integración del modelo Gemini e implementación de funcionalidades de la aplicación.
 
 ---
