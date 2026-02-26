@@ -7,7 +7,7 @@ import qrcode
 # CONFIGURACIÓN GEMINI
 # =========================
 # IMPORTANTE: pon aquí TU API KEY
-genai.configure(api_key="PONTU-API-AQUI")
+genai.configure(api_key="PON-TU-API-AQUI")
 
 model = genai.GenerativeModel("gemini-2.5-flash")
 
