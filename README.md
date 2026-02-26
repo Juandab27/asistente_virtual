@@ -1,116 +1,147 @@
-🧠 **Asistente Virtual**
+# 🧠 Asistente Virtual
 
-📌 Descripción
+<p align="center">
+Aplicación web con Inteligencia Artificial desarrollada en Python  
+</p>
 
-Asistente Virtual es una aplicación web desarrollada en Python que integra inteligencia artificial para ofrecer múltiples herramientas en una sola plataforma.
+---
 
-El sistema utiliza el modelo gemini-2.5-flash de Google para generar respuestas inteligentes y estructuradas en español.
+## 📖 Descripción
 
-La aplicación permite:
+**Asistente Virtual** es una aplicación web interactiva que integra múltiples herramientas impulsadas por inteligencia artificial en una sola plataforma.
 
-📄 Analizar textos académicos.
+Utiliza el modelo **Gemini 2.5 Flash** de Google para generar respuestas inteligentes, estructuradas y en español.
 
-📚 Analizar documentos PDF.
+Está diseñada para estudiantes, profesionales y cualquier persona que quiera apoyo académico y personal mediante IA.
 
-💰 Recibir asesoría financiera personalizada.
+---
 
-🗓️ Crear planes de organización y productividad.
+## ✨ Funcionalidades
 
-🎬 Obtener recomendaciones de películas y series.
+* 📄 **Analizador de texto académico**
 
-🔗 Generar códigos QR automáticamente.
+  * Resumen estructurado
+  * Idea central
+  * Argumentos principales
+  * Conceptos clave
+  * Preguntas para debate
+  * Análisis crítico
 
-Está pensada para estudiantes, profesionales y cualquier persona que quiera apoyo académico y personal mediante inteligencia artificial.
+* 📚 **Analizador de PDF**
 
-🚀 Tecnologías Utilizadas
+  * Resumen automático
+  * Identificación de tema principal
+  * Comentario crítico
 
-Python
+* 💰 **Asistente de finanzas personales**
 
-Streamlit
+  * Diagnóstico financiero
+  * Plan de ahorro
+  * Organización de gastos
 
-Google Generative AI (Gemini 2.5 Flash)
+* 🗓️ **Planificador personal**
 
-PyPDF2
+  * Organización por días o semanas
+  * Recomendaciones de productividad
 
-qrcode
+* 🎬 **Recomendador de películas y series**
 
-Pillow
+  * Sugerencias personalizadas
+  * Género, año y descripción
 
-⚙️ Instalación
-🔹 Requisitos previos
+* 🔗 **Generador de código QR**
 
-Tener Python 3.9 o superior instalado.
+  * Creación automática de códigos QR a partir de texto o enlaces
 
-Tener pip instalado.
+---
 
-Tener una API Key de Google AI Studio.
+## 🛠️ Tecnologías Utilizadas
 
-🔑 Obtener la API Key
+* Python
+* Streamlit
+* Google Generative AI (Gemini 2.5 Flash)
+* PyPDF2
+* qrcode
+* Pillow
 
-Ingresa a: https://aistudio.google.com
+---
 
-Inicia sesión con tu cuenta de Google.
+# 🚀 Instalación y Ejecución
 
-Ve a la sección API Keys.
+## 1️⃣ Clonar el repositorio
 
-Crea una nueva API Key.
+```bash
+git clone https://github.com/TU_USUARIO/asistente_virtual.git
+```
 
-Copia la clave generada.
+---
 
-En el archivo backend_asistente.py, reemplaza:
+## 2️⃣ Entrar a la carpeta del proyecto
 
-genai.configure(api_key="PON-TU-API-AQUI")
+```bash
+cd asistente_virtual
+```
+
+---
+
+## 3️⃣ Instalar dependencias
+
+```bash
+pip install -r requirements.txt
+```
+
+Si no tienes `requirements.txt`:
+
+```bash
+pip install streamlit google-generativeai PyPDF2 qrcode Pillow
+```
+
+---
+
+## 4️⃣ Configurar la API Key
+
+1. Ve a: [https://aistudio.google.com](https://aistudio.google.com)
+2. Crea una nueva API Key.
+3. En el archivo `backend_asistente.py`, reemplaza:
+
+```python
+genai.configure(api_key="TU_API_KEY_AQUI")
+```
 
 Por tu clave real:
 
+```python
 genai.configure(api_key="AIzaSyXXXXXXXXXXXX")
+```
 
-⚠️ Importante: No subas tu API Key real a GitHub.
+⚠️ No subas tu API Key real a GitHub.
 
-📥 Clonar el repositorio
-git clone https://github.com/TU_USUARIO/asistente_virtual.git
-▶️ Cómo iniciar la aplicación
-1️⃣ Entrar a la carpeta del proyecto
-cd asistente_virtual
+---
 
-(Si el nombre de la carpeta es diferente, usa ese nombre).
+## 5️⃣ Ejecutar la aplicación
 
-2️⃣ Instalar dependencias
-
-Si tienes requirements.txt:
-
-pip install -r requirements.txt
-
-Si no lo tienes:
-
-pip install streamlit google-generativeai PyPDF2 qrcode Pillow
-3️⃣ Ejecutar la aplicación
+```bash
 python -m streamlit run app.py
-4️⃣ Abrir en el navegador
+```
 
-Ve a:
+Luego abre en tu navegador:
 
+```
 http://localhost:8501
+```
 
-La aplicación se ejecutará localmente en tu computadora.
+---
 
-🧩 Uso
+# 🧩 Cómo usar la aplicación
 
-Al iniciar la aplicación encontrarás un menú lateral con los siguientes módulos:
+1. Ejecuta el proyecto.
+2. Selecciona un módulo en el menú lateral.
+3. Ingresa la información solicitada.
+4. Haz clic en el botón correspondiente.
+5. Obtén el resultado generado por la IA.
 
-📄 Analizador de texto
 
-📚 Analizador de PDF
+# 📌 Versión
 
-💰 Asistente de finanzas
+**Asistente Virtual — 2025** 🚀
 
-🗓️ Planificador personal
-
-🎬 Recomendador de películas y series
-
-🔗 Generador de código QR
-
-Selecciona un módulo, ingresa la información solicitada y obtén el resultado generado por la inteligencia artificial.
-
-📅 Versión
-Asistente Virtual (2025) 🚀
